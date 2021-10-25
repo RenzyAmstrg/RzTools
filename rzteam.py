@@ -17,9 +17,9 @@ print("""\x1b[1;92m
  """)
 print("↪ TOOLS INFORMATION ↩")
 print("↪ CREATOR : DEMON RENZY")
-print("↪ VERSION : V2 ↩")
+print("↪ VERSION : V3 ↩")
 print("↪ COMMUNITY SERVER ↩")
-print("↪ https://discord.gg/nqkysDyw82↩")
+print("↪ https://dsc.gg/rzteam↩")
 
 ip = str(input(" IP :"))
 port = int(input(" Port :"))
