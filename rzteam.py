@@ -41,7 +41,7 @@ def run():
 			print("[!] Connection Time Out")
 
 def run2():
-	data = random._urandom(20)
+	data = random._urandom(1024)
 	i = random.choice(("[×]","[?]","[!]"))
 	while True:
 		try:
